@@ -1,7 +1,0 @@
-module "base_rules" {
-  source = "../modules/azure/nsg-rules"
-}
-
-module "env_rules" {
-  source = "../modules/env/example-env"
-}
